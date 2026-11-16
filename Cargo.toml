@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-3d-renderer"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS 3d-renderer component"
+
+[lib]
+name = "sigmaos_3d_renderer"
+path = "src/lib.rs"
