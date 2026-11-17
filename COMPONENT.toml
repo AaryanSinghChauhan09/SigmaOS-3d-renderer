@@ -3,12 +3,12 @@ name = "SigmaOS-3d-renderer"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "3d-renderer component"
+description = "3D renderer component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
