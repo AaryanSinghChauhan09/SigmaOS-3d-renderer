@@ -4,6 +4,9 @@
 //! Real implementation: renderers, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
 
+/// 3D graphics and rendering module (models, scenes).
+pub mod sigma3d;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
