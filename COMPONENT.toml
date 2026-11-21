@@ -8,7 +8,7 @@ upstream = []
 
 [contract]
 provides = ["sigma3d"]
-depends_on = ["SigmaOS-system"]
+depends_on = []
 
 [maturity]
 status = "Implemented"
